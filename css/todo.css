@@ -1,1 +1,218 @@
+body{
+    margin: 0%;
+}
+.nav{
+    background-color: linen;
+    margin-top: 0%;
+    overflow: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.List-container{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
 
+}
+.List-container h1{
+    font-size: 42px;
+    display: inline-block;
+
+}
+.small-container{
+    margin-right: 5%;
+}
+
+.small-container h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: rgb(155, 152, 152);}
+.element-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.details{
+    border: 2px solid rgb(233, 133, 133);
+    border-radius: 3%;
+    width: 175px;
+    height: 275px;
+    box-shadow: 8px 8px 8px lightgrey;
+}
+.details h3{
+    margin-left: 15%;
+    margin-top: 18%;
+}
+.details hr{
+    color: lightgrey;
+}
+.small-detailing{
+    margin-left: 18%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    
+}
+.single-change{
+    color: red;
+    text-decoration-line: line-through;
+    font-size: 20px;
+}
+ .details label{
+    font-size: 16px;
+    color: rgb(19, 17, 17);
+    font-family: sans-serif;
+
+}
+.details h2{
+    margin-top: 18%;
+    color: rgb(233, 133, 133);
+    font-size: 19px;
+}
+.link{
+    margin-left: 90vw;
+    font-size: 20px;
+    margin-top: 8vh;
+}
+.link a{
+    color: black;
+}
+.link a:hover{
+    color: rgb(4, 59, 61);
+}
+/* Page-2 */
+
+
+.nav-1{
+    background-color: rgb(230, 221, 221);
+    overflow: auto;
+    width: 100%;
+    height: 20px;
+}
+.container{
+    display: flex;
+    margin-top: -2%;
+    
+}
+.line{
+    width: 10%;
+    margin-left: 22%;
+    margin-top: 8%;
+    margin-right: 20px;
+}
+.line1{
+    width: 10%;
+    margin-right: 20%;
+    margin-top: 8%;
+    margin-left: 50px;
+}
+.text{
+    font-size: 30px;
+    margin-top: 2.5%;
+    font-family: sans-serif;
+}
+.second-container{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(133, 131, 131);
+    margin-left: 42vw;
+    margin-top: -2%;
+}
+.third-container{
+    position: relative;
+    border: 2px solid black;
+    height: 325px;
+    width: 350px;
+    margin-left: 35%;
+    border-radius: 3%;
+    box-shadow: 8px 8px 8px lightgrey;
+    border: 2px solid rgb(233, 133, 133);
+}
+.third-container i{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 100px;
+    width: 125px;
+}
+.single-change1{
+    color: red;
+    text-decoration-line: line-through;
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10%;
+}
+.child-third{
+    margin-left: 30%;
+    font-family:  sans-serif;
+    font-size: 15px;
+   
+}
+.child-third h2{
+    margin-top: 16%;
+    color: rgb(228, 80, 80);
+}
+.adjust{
+    font-size: 18px;
+    color: rgb(59, 58, 58);
+    font-family: sans-serif;
+    margin-left: 80px;
+}
+
+/*************** Page-3 ***********************/
+
+.blur-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+}
+.blur-container{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50% );
+    text-align: center;
+    z-index: 5;
+    padding: 20px 65px;
+    border-radius: 4%;
+    border: 2px solid rgb(233, 133, 133);
+    box-shadow: 8px 8px 8px lightgrey;
+    background-color: white;
+}
+.blur-container input{
+    padding: 7px 45px;
+    border-radius: 5px;
+    border: 2px outset rgb(233, 133, 133);
+ }
+ .blur-container button{
+     background-color: rgb(240, 42, 42);
+     padding: 5px 19px;
+     color: white;
+     border-radius: 25px;
+     text-align: center;
+     border: none;
+     font-size: 18px;
+     font-family: sans-serif;
+ }
+ .blur-container p{
+     font-family: sans-serif;
+     color: rgb(243, 96, 96);
+     font-size: 17px;
+     margin-top: 8%;
+ }
+
+ .link-1{
+     position: absolute;
+     margin-top: -50px;
+     margin-left: 91%;
+     font-size: 20px;
+ }
+ .link-1 a{
+    color: black;
+}
+.link-1 a:hover{
+    color: rgb(4, 59, 61);
+}
